@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+.sidebar {
+  float: left;
+  width: 20%;
+  background-color: burlywood;
+}
+
+.main {
+  float: right;
+  width: 80%;
+  background-color: aliceblue;
+}
