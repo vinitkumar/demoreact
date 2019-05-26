@@ -9,15 +9,18 @@ class App extends Component {
     let urlList = [
       {
         urlName: "vinit",
-        apiUrl: "https://vinitkumar.me"
+        apiUrl: "https://vinitkumar.me",
+        color: "red"
       },
       {
         urlName: "Anit",
-        apiUrl: "https://anit.github.io"
+        apiUrl: "https://anit.github.io",
+        color: "green"
       },
       {
         urlName: "Apurva",
-        apiUrl: "https://apurvadey.github.io"
+        apiUrl: "https://apurvadey.github.io",
+        color: "yellow"
       },
     ];
     return (
@@ -31,7 +34,7 @@ class App extends Component {
           <MainComponent></MainComponent>
         </div>
       </div>
-    ); 
+    );
   }
 }
 
